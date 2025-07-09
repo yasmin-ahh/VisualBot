@@ -1,0 +1,37 @@
+bot /1e-13/
+seven /1e-10/
+nine /1e-10/
+zero /1e-10/
+x /1e-4/ 
+y /1e-3/ 
+four /1e-15/
+six /1e-15/
+d /1e-3/
+take me /1e-20/
+go to /1e-22/ 
+door lab /1e-20/ 
+vending machine /1e-21/ 
+exit door /1e-25/ 
+stop /1e-10/
+location /1e-15/ 
+
+
+STOP /1e-10/
+bot /1e-10/
+four /1e-20/
+two /1e-13/
+one /1e-20/
+six /1e-25/
+room seven /1e-20/
+room nine /1e-25/
+room zero /1e-25/
+room three /1e-25/
+room five /1e-25/
+take me /1e-15/
+go to /1e-15/ 
+door lab /1e-20/ 
+vending machine /1e-21/ 
+exit door /1e-25/ 
+
+
+python3 mic_vad_streaming.py -v 1 -m deepspeech-0.9.3-models.pbmm -s deepspeech-0.9.3-models.scorer -r 16000
